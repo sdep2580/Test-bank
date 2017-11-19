@@ -1,0 +1,5 @@
+C:\Users\sdep4647_2\Documents\Visual Studio 2017\Projects\LeeCustomerData\LeeCustomerData\bin\Debug\LeeCustomerData.dacpac
+C:\Users\sdep4647_2\Documents\Visual Studio 2017\Projects\LeeCustomerData\LeeCustomerData\bin\Debug\LeeCustomerData.dll
+C:\Users\sdep4647_2\Documents\Visual Studio 2017\Projects\LeeCustomerData\LeeCustomerData\bin\Debug\LeeCustomerData.pdb
+C:\Users\sdep4647_2\Documents\Visual Studio 2017\Projects\LeeCustomerData\LeeCustomerData\obj\Debug\LeeCustomerData.dll
+C:\Users\sdep4647_2\Documents\Visual Studio 2017\Projects\LeeCustomerData\LeeCustomerData\obj\Debug\LeeCustomerData.pdb
