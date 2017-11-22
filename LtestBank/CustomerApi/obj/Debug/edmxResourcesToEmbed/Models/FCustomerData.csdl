@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LeeCustomerDataModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="FCustomerData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="CustomerNo" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Curcd" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="Rate" Type="Decimal" Precision="6" Scale="4" />
+    <Property Name="Amt" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Company_yn" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Freeze_yn" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Obu" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="ModifyDate" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="LeeCustomerDataEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FCustomerData" EntityType="Self.FCustomerData" />
+  </EntityContainer>
+</Schema>

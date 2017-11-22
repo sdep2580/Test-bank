@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LeeCustomerDataModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="FCustomerData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="CustomerNo" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Curcd" Type="char" MaxLength="3" />
+    <Property Name="Rate" Type="decimal" Precision="6" Scale="4" />
+    <Property Name="Amt" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Company_yn" Type="char" MaxLength="1" />
+    <Property Name="Freeze_yn" Type="char" MaxLength="1" />
+    <Property Name="Obu" Type="char" MaxLength="1" />
+    <Property Name="ModifyDate" Type="date" />
+  </EntityType>
+  <EntityContainer Name="LeeCustomerDataModel1StoreContainer">
+    <EntitySet Name="FCustomerData" EntityType="Self.FCustomerData" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

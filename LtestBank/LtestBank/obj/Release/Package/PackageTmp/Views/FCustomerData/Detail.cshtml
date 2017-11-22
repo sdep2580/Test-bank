@@ -1,0 +1,99 @@
+﻿@model LtestBank.Models.FCustomerData
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detail</h2>
+
+<div>
+    <h4>FCustomerData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Curcd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Curcd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Company_yn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Company_yn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Freeze_yn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Freeze_yn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Obu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Obu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifyDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifyDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("修改", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Browse")
+</p>

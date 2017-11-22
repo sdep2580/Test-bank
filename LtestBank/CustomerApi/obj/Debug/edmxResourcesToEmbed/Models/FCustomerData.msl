@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LeeCustomerDataModel1StoreContainer" CdmEntityContainer="LeeCustomerDataEntities2">
+    <EntitySetMapping Name="FCustomerData">
+      <EntityTypeMapping TypeName="LeeCustomerDataModel1.FCustomerData">
+        <MappingFragment StoreEntitySet="FCustomerData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CustomerNo" ColumnName="CustomerNo" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Curcd" ColumnName="Curcd" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Amt" ColumnName="Amt" />
+          <ScalarProperty Name="Company_yn" ColumnName="Company_yn" />
+          <ScalarProperty Name="Freeze_yn" ColumnName="Freeze_yn" />
+          <ScalarProperty Name="Obu" ColumnName="Obu" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
